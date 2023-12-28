@@ -7,7 +7,7 @@
 .container{
 	width: 100%;
 	height: 100vh;
-	background-image: url('background.png');
+	background-image: url('bg.jpg');
 	background-position: center;
 	background-size: cover;
 	padding: .7%;
@@ -46,6 +46,7 @@ nav ul li{
 nav ul li a{
 	color: #fff;
 	text-decoration: none;
+	font-size: 19px;
 }
 nav .btn{
 	color: #fff;
@@ -68,7 +69,7 @@ nav .btn{
 }
 .content p{
 	line-height: 22px;
-	font-size: 14px;
+	font-size: 18px;
 
 }
 .content .btn{
@@ -85,7 +86,7 @@ nav .btn{
 
 .coinage{
 	position: absolute;
-	right: 10%;
+	right: 4%;
 	bottom: 50px;
 	display: flex;
 	align-items: center;
@@ -104,7 +105,7 @@ nav .btn{
 	width: 40px;
 	margin-right: 10px;
 }
-.coin h3{
+.coin h3,p{
 	color: #fff;
 	margin-bottom: 5px;
 }
